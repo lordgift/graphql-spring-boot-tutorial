@@ -1,6 +1,6 @@
 package uk.co.benskin.graphql_spring_boot_tutorial.entities;
 
-import uk.co.benskin.graphql_spring_boot_tutorial.enums.Animal;
+import uk.co.benskin.graphql_spring_boot_tutorial.entities.enums.Animal;
 
 import java.time.LocalDateTime;
 

@@ -1,18 +1,23 @@
 package uk.co.benskin.graphql_spring_boot_tutorial.resolvers;
 
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 import uk.co.benskin.graphql_spring_boot_tutorial.entities.Homeless;
 import uk.co.benskin.graphql_spring_boot_tutorial.entities.Pet;
-import uk.co.benskin.graphql_spring_boot_tutorial.enums.Animal;
+import uk.co.benskin.graphql_spring_boot_tutorial.entities.enums.Animal;
+import uk.co.benskin.graphql_spring_boot_tutorial.service.ServiceManager;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Component
 public class Query implements GraphQLQueryResolver {
+
+    @Autowired
+    ServiceManager service;
 
     public List<Pet> pets() {
         List<Pet> pets = new ArrayList<>();
@@ -24,6 +29,9 @@ public class Query implements GraphQLQueryResolver {
         pets.add(aPet);
 
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+
+        System.out.println(service.queryMyUser());
+
 
         return pets;
     }

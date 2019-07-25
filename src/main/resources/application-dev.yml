@@ -18,4 +18,4 @@ spring:
 
 logging:
   level:
-    th.in.lordgift.SpringBoot2Tutorial.*: debug
+    th.in.lordgift.*: debug

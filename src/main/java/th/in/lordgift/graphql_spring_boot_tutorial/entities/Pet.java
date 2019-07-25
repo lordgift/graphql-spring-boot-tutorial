@@ -1,6 +1,6 @@
-package uk.co.benskin.graphql_spring_boot_tutorial.entities;
+package th.in.lordgift.graphql_spring_boot_tutorial.entities;
 
-import uk.co.benskin.graphql_spring_boot_tutorial.entities.enums.Animal;
+import th.in.lordgift.graphql_spring_boot_tutorial.entities.enums.Animal;
 
 
 public class Pet {

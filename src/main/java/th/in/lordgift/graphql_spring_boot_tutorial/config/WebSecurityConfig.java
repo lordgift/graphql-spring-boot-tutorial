@@ -1,4 +1,4 @@
-package uk.co.benskin.graphql_spring_boot_tutorial.config;
+package th.in.lordgift.graphql_spring_boot_tutorial.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -9,7 +9,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.security.web.util.matcher.RequestMatcher;
-import uk.co.benskin.graphql_spring_boot_tutorial.secure.filter.TokenAuthenticationFilter;
+import th.in.lordgift.graphql_spring_boot_tutorial.secure.filter.TokenAuthenticationFilter;
 
 import java.util.ArrayList;
 import java.util.Arrays;

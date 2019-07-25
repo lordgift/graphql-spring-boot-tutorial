@@ -1,4 +1,4 @@
-package uk.co.benskin.graphql_spring_boot_tutorial.secure;
+package th.in.lordgift.graphql_spring_boot_tutorial.secure;
 
 public class MyUserPrincipal {
 

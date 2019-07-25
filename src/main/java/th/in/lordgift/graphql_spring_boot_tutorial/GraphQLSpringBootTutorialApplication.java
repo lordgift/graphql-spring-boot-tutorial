@@ -1,4 +1,4 @@
-package uk.co.benskin.graphql_spring_boot_tutorial;
+package th.in.lordgift.graphql_spring_boot_tutorial;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

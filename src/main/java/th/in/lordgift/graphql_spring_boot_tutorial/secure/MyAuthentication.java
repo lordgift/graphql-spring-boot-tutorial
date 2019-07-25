@@ -1,4 +1,4 @@
-package uk.co.benskin.graphql_spring_boot_tutorial.secure;
+package th.in.lordgift.graphql_spring_boot_tutorial.secure;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;

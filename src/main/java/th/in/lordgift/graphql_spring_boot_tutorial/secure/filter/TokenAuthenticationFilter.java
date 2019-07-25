@@ -1,10 +1,10 @@
-package uk.co.benskin.graphql_spring_boot_tutorial.secure.filter;
+package th.in.lordgift.graphql_spring_boot_tutorial.secure.filter;
 
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.util.AntPathMatcher;
 import org.springframework.web.filter.OncePerRequestFilter;
-import uk.co.benskin.graphql_spring_boot_tutorial.secure.MyAuthentication;
-import uk.co.benskin.graphql_spring_boot_tutorial.secure.MyUserPrincipal;
+import th.in.lordgift.graphql_spring_boot_tutorial.secure.MyAuthentication;
+import th.in.lordgift.graphql_spring_boot_tutorial.secure.MyUserPrincipal;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

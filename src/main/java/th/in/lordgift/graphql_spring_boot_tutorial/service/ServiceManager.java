@@ -1,4 +1,4 @@
-package uk.co.benskin.graphql_spring_boot_tutorial.service;
+package th.in.lordgift.graphql_spring_boot_tutorial.service;
 
 import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,10 +7,10 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
-import uk.co.benskin.graphql_spring_boot_tutorial.repository.MyUserPaging;
-import uk.co.benskin.graphql_spring_boot_tutorial.repository.PersistenceRepository;
-import uk.co.benskin.graphql_spring_boot_tutorial.repository.QueryRepository;
-import uk.co.benskin.graphql_spring_boot_tutorial.repository.entity.MyUser;
+import th.in.lordgift.graphql_spring_boot_tutorial.repository.MyUserPaging;
+import th.in.lordgift.graphql_spring_boot_tutorial.repository.PersistenceRepository;
+import th.in.lordgift.graphql_spring_boot_tutorial.repository.QueryRepository;
+import th.in.lordgift.graphql_spring_boot_tutorial.repository.entity.MyUser;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package uk.co.benskin.graphql_spring_boot_tutorial.repository.entity;
+package th.in.lordgift.graphql_spring_boot_tutorial.repository.entity;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;

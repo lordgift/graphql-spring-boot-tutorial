@@ -1,14 +1,14 @@
-package uk.co.benskin.graphql_spring_boot_tutorial.resolvers;
+package th.in.lordgift.graphql_spring_boot_tutorial.resolvers;
 
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
-import uk.co.benskin.graphql_spring_boot_tutorial.entities.Homeless;
-import uk.co.benskin.graphql_spring_boot_tutorial.entities.Pet;
-import uk.co.benskin.graphql_spring_boot_tutorial.entities.enums.Animal;
-import uk.co.benskin.graphql_spring_boot_tutorial.service.ServiceManager;
+import th.in.lordgift.graphql_spring_boot_tutorial.entities.Homeless;
+import th.in.lordgift.graphql_spring_boot_tutorial.entities.Pet;
+import th.in.lordgift.graphql_spring_boot_tutorial.entities.enums.Animal;
+import th.in.lordgift.graphql_spring_boot_tutorial.service.ServiceManager;
 
 import java.util.ArrayList;
 import java.util.List;

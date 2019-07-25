@@ -1,6 +1,4 @@
-package th.in.lordgift.graphql_spring_boot_tutorial.entities;
-
-import th.in.lordgift.graphql_spring_boot_tutorial.entities.enums.Animal;
+package th.in.lordgift.graphql_spring_boot_tutorial.resolvers.schemas;
 
 
 public class Pet {

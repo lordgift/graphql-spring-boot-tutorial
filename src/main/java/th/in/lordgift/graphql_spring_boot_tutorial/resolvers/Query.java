@@ -5,9 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
-import th.in.lordgift.graphql_spring_boot_tutorial.entities.Homeless;
-import th.in.lordgift.graphql_spring_boot_tutorial.entities.Pet;
-import th.in.lordgift.graphql_spring_boot_tutorial.entities.enums.Animal;
+import th.in.lordgift.graphql_spring_boot_tutorial.resolvers.schemas.Homeless;
+import th.in.lordgift.graphql_spring_boot_tutorial.resolvers.schemas.Pet;
+import th.in.lordgift.graphql_spring_boot_tutorial.resolvers.schemas.Animal;
 import th.in.lordgift.graphql_spring_boot_tutorial.service.ServiceManager;
 
 import java.util.ArrayList;

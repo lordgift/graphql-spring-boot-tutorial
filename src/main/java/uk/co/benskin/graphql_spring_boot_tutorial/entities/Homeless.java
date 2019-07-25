@@ -2,13 +2,15 @@ package uk.co.benskin.graphql_spring_boot_tutorial.entities;
 
 import uk.co.benskin.graphql_spring_boot_tutorial.enums.Animal;
 
+import java.time.LocalDateTime;
 
-public class Pet {
+
+public class Homeless {
 
     private long id;
-    private String name;
     private Animal type;
-    private int age;
+    private String location;
+    private LocalDateTime foundAt;
 
     public long getId() {
         return id;
@@ -16,14 +18,6 @@ public class Pet {
 
     public void setId(long id) {
         this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public Animal getType() {
@@ -34,11 +28,19 @@ public class Pet {
         this.type = type;
     }
 
-    public int getAge() {
-        return age;
+    public String getLocation() {
+        return location;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public LocalDateTime getFoundAt() {
+        return foundAt;
+    }
+
+    public void setFoundAt(LocalDateTime foundAt) {
+        this.foundAt = foundAt;
     }
 }

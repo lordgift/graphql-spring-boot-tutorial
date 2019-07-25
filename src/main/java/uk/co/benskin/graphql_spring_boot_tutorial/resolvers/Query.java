@@ -1,11 +1,13 @@
 package uk.co.benskin.graphql_spring_boot_tutorial.resolvers;
 
-import java.util.ArrayList;
-import java.util.List;
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
 import org.springframework.stereotype.Component;
+import uk.co.benskin.graphql_spring_boot_tutorial.entities.Homeless;
 import uk.co.benskin.graphql_spring_boot_tutorial.entities.Pet;
 import uk.co.benskin.graphql_spring_boot_tutorial.enums.Animal;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Component
 public class Query implements GraphQLQueryResolver {
@@ -19,5 +21,15 @@ public class Query implements GraphQLQueryResolver {
         aPet.setType(Animal.MAMMOTH);
         pets.add(aPet);
         return pets;
+    }
+
+    public List<Homeless> homeless() {
+        List<Homeless> homelesses = new ArrayList<>();
+        Homeless homeless = new Homeless();
+        homeless.setId(1l);
+        homeless.setType(Animal.MAMMOTH);
+
+        homelesses.add(homeless);
+        return homelesses;
     }
 }

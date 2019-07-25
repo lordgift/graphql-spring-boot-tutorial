@@ -1,5 +1,6 @@
 type Query {
     pets: [Pet]
+    homeless: [Homeless]
 }
 
 type Pet {
@@ -7,6 +8,12 @@ type Pet {
     type: Animal!
     name: String
     age: Int
+}
+
+type Homeless {
+    id: Int!
+    type: Animal!
+    location: String
 }
 
 enum Animal {

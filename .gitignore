@@ -2,3 +2,7 @@ bin/
 target/
 .settings/
 .factorypath
+.classpath
+.project
+.idea/**
+*.iml

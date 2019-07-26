@@ -8,14 +8,14 @@ Spring Boot 2.0.0 Tutorial
 
 ## Project Structure
 
-- [*.graphqls](src/main/resources/petshop.graphqls) related with [resolvers](src/main/java/th/in/lordgift/graphql_spring_boot_tutorial/resolvers)
+- [*.graphqls](src/main/resources/schema.graphqls) related with [resolvers](src/main/java/th/in/lordgift/graphql_spring_boot_tutorial/resolvers) that you can found **hardcode way & hibernate way** for compare how to play with data flow and more understand with GraphQL.
 - Presentation layer, Business layer, Persistence layer conform to https://github.com/lordgift/SpringBoot2Tutorial
 
 
 ## How To Play
 
 
-every services depend on [*.graphqls](src/main/resources/petshop.graphqls) by `POST` to http://localhost:8080/spring/graphql
+Every services depend on [*.graphqls](src/main/resources/petshop.graphqls) by `POST` to http://localhost:8080/spring/graphql
 
 
 ##### Tool for Test GraphQL 
@@ -26,7 +26,7 @@ every services depend on [*.graphqls](src/main/resources/petshop.graphqls) by `P
 
 -----------
 
-Request payload (difference from JSON), Copy and paste the below there:
+Example for Request payload (difference from JSON), try it by GraphQL client tool:
 
     {
         pets {
@@ -50,4 +50,6 @@ Response:
         }
     }
 
-Congratulations!
+try more by using autocomplete via GraphQL client tool..
+
+OR preview GraphQL schema file [*.graphqls](src/main/resources/schema.graphqls)

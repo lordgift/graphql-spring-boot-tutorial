@@ -1,9 +1,10 @@
-# GraphQL + Spring Boot
+# GraphQL + Spring Boot + Hibernate
 
-![](https://img.shields.io/badge/Java-8-orange.svg?logo=java)
 ![](https://img.shields.io/badge/Spring%20Boot-2.1.6-green.svg)
 ![](https://img.shields.io/badge/GraphQL-4.0.0-E0008B.svg?logo=GraphQL)
+![](https://img.shields.io/badge/Java-8-orange.svg?logo=java)
 ![](https://img.shields.io/badge/Gradle-4.10.3-002A32.svg)
+![](https://img.shields.io/badge/Hibernate-5.3.10-B4A571.svg)
 
 ## Project Structure
 

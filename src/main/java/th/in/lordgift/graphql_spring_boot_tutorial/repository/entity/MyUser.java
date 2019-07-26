@@ -16,11 +16,14 @@ public class MyUser {
 
     }
 
-    public MyUser(String name) {
+    public MyUser(String name, String position, LocalDateTime lastUpdated) {
         this.name = name;
+        this.position = position;
+        this.lastUpdated = lastUpdated;
     }
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
     public Long getId() {
         return id;

@@ -1,7 +1,18 @@
 type Query {
     pets: [Pet]
     homeless: [Homeless]
+
 }
+
+type Mutation {
+    createUser(user: User):Boolean
+}
+
+input User {
+    name: String
+    position: String
+}
+
 
 type Pet {
     id: Int!

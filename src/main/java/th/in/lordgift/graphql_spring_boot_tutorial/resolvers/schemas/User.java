@@ -5,6 +5,11 @@ public class User {
     private String name;
     private String position;
 
+    public User(String name, String position) {
+        this.name = name;
+        this.position = position;
+    }
+
     public String getName() {
         return name;
     }

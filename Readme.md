@@ -1,8 +1,7 @@
 # GraphQL + Spring Boot
-Spring Boot 2.0.0 Tutorial 
 
 ![](https://img.shields.io/badge/Java-8-orange.svg?logo=java)
-![](https://img.shields.io/badge/Spring%20Boot-2.1.2-green.svg)
+![](https://img.shields.io/badge/Spring%20Boot-2.1.6-green.svg)
 ![](https://img.shields.io/badge/GraphQL-4.0.0-E0008B.svg?logo=GraphQL)
 ![](https://img.shields.io/badge/Gradle-4.10.3-002A32.svg)
 
